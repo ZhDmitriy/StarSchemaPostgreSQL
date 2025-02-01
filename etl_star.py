@@ -213,5 +213,5 @@ if __name__ == '__main__':
     data = starETL.extract_transform(
         path_to_file='/home/dmitriy/PycharmProjects/StarSchema/data/shopping_behavior_updated.csv'
     )
-    #starETL.insert_dimension_table(data=data)
+    starETL.insert_dimension_table(data=data)
     starETL.insert_fact_table(data=data)
