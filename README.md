@@ -1,5 +1,5 @@
 # StarSchemaPostgreSQL
-Создания схемы "Звезда" на PostgreSQL c типом SCD2.
+Создания схемы "Звезда" на PostgreSQL c типом SCD1.
 
 Логическая модель данных: 
 ![Снимок экрана от 2025-01-29 23-03-12](https://github.com/user-attachments/assets/2540f93c-616f-4c99-a348-eab57a381b49)
