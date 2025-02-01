@@ -143,9 +143,6 @@ class StarETL:
                         'Shipping_Type', 'Discount_Applied', 'Promo_Code_Used', 'Previous_Purchases', 'Payment_Method', 'Frequency_of_Purchases']
 
         # Получение первичных ключей таблиц измерений
-
-        fk_shop_id = 0
-
         cursor = self.connection.cursor()
         for dataRow in data.itertuples():
 
